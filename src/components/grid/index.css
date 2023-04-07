@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Press+Start+2P&display=swap');
+
+.app {
+    width: 500px;
+    height: 500px;
+    background-color: #333333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+button {
+    margin: auto;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(227, 60, 246);
+    border: none;
+    transition: .3s;
+    color: #333333;
+    font-size: 60px;
+    font-family: 'Press Start 2P', cursive;
+    ;
+}
+
+button:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
